@@ -27,6 +27,7 @@ public class Proba {
 
 	@Test
 	public static void main() throws Exception {
+		//glavna metoda
 		driver.get(baseUrl + "/public/login?locale=en_US");
 		driver.findElement(By.id("userEmail")).clear();
 		driver.findElement(By.id("userEmail")).sendKeys("echosign.marko@gmail.com");
