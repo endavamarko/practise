@@ -1,5 +1,6 @@
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
+
 import static org.testng.Assert.fail;
 
 import java.util.concurrent.TimeUnit;
@@ -23,6 +24,7 @@ public class Proba {
 		driver = new FirefoxDriver();
 		baseUrl = "https://secure.echosignpreview.com/";
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		//blablabla
 	}
 
 	@Test
